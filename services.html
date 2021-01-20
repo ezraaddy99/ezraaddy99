@@ -1,0 +1,175 @@
+<html>
+<head>
+<title> Services</title>
+<center><img src="logo.png" width= "70%" height="35%"></center>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="button.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  	box-sizing: border-box;
+}
+.column {
+  	float: left;
+  	width: 50%;
+  	padding: 10px;
+  	height: 300px;
+}
+.row:after {
+  	content: "";
+  	display: table;
+  	clear: both;
+}
+#myBtn {
+  	display: none;
+  	position: fixed;
+  	bottom: 20px;
+  	right: 30px;
+  	z-index: 99;
+  	font-size: 18px;
+  	border: 10px;
+  	outline: none;
+  	background-color: red;
+  	color: white;
+  	cursor: pointer;
+  	padding: 18px;
+  	border-radius: 8px;
+}
+#MyBtn:hover {
+  	background-color: white;
+	color: red;
+}
+body {
+	background-color: white;
+}
+h2 {
+	color:#B10202; 
+	text-shadow: 2px 2px 8px black, 0 0 6px white;
+	font-family:Roboto;
+	text-align:center;  
+	font-size:30px;
+	text-align: center;
+}
+p {
+	font-family:Arial;
+	text-align: center;
+	backgroung-color: white;
+}
+ul, li {
+	font-family:Arial;
+	text-align: left;
+}
+div {
+ 	font-family:Arial;
+	text-align: center;
+	background-color: red;
+}
+footer{
+	font-family: roboto;
+	text-align: center;
+	background-color: red;
+	color: white;
+}
+	
+</style>
+</head>
+<body>
+<div class="topnav">
+ 	<a href="index.html">Home</a>
+ 	<a href="introduction.html">About Us</a>
+ 	<a href="history.html">History</a>
+ 	<a href="mission-vision.html">Mission & Vision</a>
+ 	<a href="activities.html">Activties</a>
+ 	<a href="services.html">Services</a>
+ 	<a href="volunteer.html">Volunteer</a>
+ 	<a href="donate.html">Donate</a>
+ 	<a href="location.html">Location</a>
+ 	<a href="facilities.html">Facilities</a>
+ 	<a href="contact.html">Contact Us</a> 
+</div>
+	<b><p>The Salvation Army reaches out with care and compassion to individuals and families in need. We bring hope where there is despair and bring a smile to 	those 	who may need encouragement.</p></b>
+	<b><p>In Malaysia, The Salvation Army operates a range of social services from residential homes to community based support programmes.</p></b>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<script>
+	//Get the button
+	var mybutton = document.getElementById("myBtn");
+
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+  	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    	mybutton.style.display = "block";
+ 	 } else {
+ 	   mybutton.style.display = "none";
+ 	}
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+  	document.body.scrollTop = 0;
+  	document.documentElement.scrollTop = 0;
+}
+</script>
+
+<div class="row">
+<div class="column" style="background-color:white;">
+    <h2>Residential Care for Childrens</h2>
+    	<p>All too often children are the innocent victims during family crisis. The Salvation Army has six residential homes in Malaysia that provide care and 		protection for children and young people, because Every Child Matters.</p>
+	<p>The homes provide both residential and day care services that help children overcome past traumas. A balance of educational and recreational activities help 	build confidence and equip young people for the future.</p>
+</div>
+<div class="column" style="background-color:white;">
+    <h2>Residential Care For The Elderly</h2>
+    	<p>Taking good care of the elderly in our community is very important. Whether it be the offspring, relatives, neighbours or organisations like The Salvation 		Army, we all have a duty to care for our elders. The Salvation Army operates two homes for the elderly in Malaysia that care for up to 80 residents and day 		care clients.</p>
+</div>
+<div class="row">
+<div class="column" style="background-color:white;">
+    	<h2>Special Needs</h2>
+    	<p>Hopehaven Centre for Special Children provides education and day care services for children and young adults with special needs. Situated in Melaka, the 		Centre has a developed programmes that help young people reach their full potential with specialised facilities such as a Sensory Classroom.</p>
+</div>
+<div class="column" style="background-color:white;">
+    	<h2>Kindergartens</h2>
+    	<p>The Salvation Army kindergartens provide a balanced curriculum of academic, social skills learning and recreational activities. Children are taught language 	skills and encouraged to participate in group activities to help prepare for primary school. Programmes are carefully designed to help children reach their 		full potential.</p>
+</div>
+<div class="row">
+<div class="column" style="background-color:white;">
+    	<h2>Tuition & Day Care Centres</h2>
+    	<p>The Salvation Army operates Tuition Centres in Kota Kinabalu, Bintulu and Banting. The Centres in Bintulu and Banting also provide day care services. 		Underpriviledged children receive assistance with tuition, particularly those who may struggle with academic studies. The daily programme also provides a meal, 	play time and for younger children, a rest time.</p>
+	<p>During long school holidays, the Centres provide holiday programmes which include camps and festive celebrations.</p>
+</div>
+<div class="column" style="background-color:white;">
+    	<h2>Community Services</h2>
+	<p>Community Services (Family Support)</p>
+<ul>
+  	<li>Banting Corps & Community Services</li>
+  	<li>Bintulu Corps & Community Services</li>
+  	<li>Ipoh Corps & Community Services</li>
+	<li>Kota Kinabalu Corps & Community Services</li>
+	<li>Kuala Lumpur Corps & Community Services</li>
+	<li>Kuching Corps & Community Services</li>
+</ul>  
+</div>
+<div class="row">
+<div class="column" style="background-color:white;">
+    	<h2>Other Services</h2>
+    	<p>Other services operated by The Salvation Army in Malaysia:</p>
+	<p>Pudu Refugee Ministry started in July, 2011. The ministry has two main programmes:  Recycling Programme and Food Parcel Service. Originally partnered with 		UNHCR, The Salvation Army has set up a Recycling Programme where refugees in the Pudu area can access affordable clothing and household items.Poor families in 		the Pudu area receive a monthly Food Parcel including rice, tinned and dried foodstuff.</p>
+</div>
+<div class="column" style="background-color:white;">
+    	<h2>Red Shield Industries (RSI)</h2>
+    	<p>Red Shield Industries (RSI) is the social enterprise arm of The Salvation Army. By recycling and re-using donations in-kind from the public and 			corporations, it generates income through its Family Thrift Stores to support our mission to provide holistic care to the community.</p>
+	<p>Online booking: <a href= "http://redshieldindustries.com.my/">Red Shield Industries</a></p>
+	<p>WhatsApp: 016 492 1078 or Tel: 03 80811046</p>
+	<p>Email:<a href="mailto:donate4malaysia@SMM.salvationarmy.org">The Salvation Army</a></p>
+</div>
+<br>
+<br>
+<footer>
+	<p><center>Design by Ezra, Ocealen, Fahana, Claudia</center></p>
+	<p><center>Disclaimer: This website is not an official website of The Salvation Army</center></p>
+	<p><center><a href = "https://www.salvationarmy.org/malaysia"> Official Website</a></center></p>
+<br>	
+</footer>
+</body>
+</html>
